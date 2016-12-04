@@ -1,0 +1,6 @@
+REPORT zabap_test_0024 NO STANDARD PAGE HEADING.
+
+DO 2 TIMES.
+  WRITE / 'asdf' ##NO_TEXT.
+ENDDO.
+WRITE / 'foo' ##NO_TEXT.

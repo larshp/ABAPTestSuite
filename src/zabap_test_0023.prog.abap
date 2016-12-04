@@ -1,0 +1,7 @@
+REPORT zabap_test_0023 NO STANDARD PAGE HEADING.
+
+IF 2 = 1 OR 1 = 2.
+  WRITE 'yes'.
+ELSE.
+  WRITE 'no'.
+ENDIF.

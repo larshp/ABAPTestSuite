@@ -1,0 +1,9 @@
+REPORT zabap_test_0021 NO STANDARD PAGE HEADING.
+
+DATA: gv_c TYPE c.
+
+IF NOT gv_c IS INITIAL.
+  WRITE 'initial' ##NO_TEXT.
+ELSE.
+  WRITE 'not' ##NO_TEXT.
+ENDIF.

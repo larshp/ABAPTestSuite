@@ -1,0 +1,8 @@
+REPORT zabap_test_0026 NO STANDARD PAGE HEADING.
+
+PERFORM foo.
+
+FORM foo.
+  WRITE 'hello' ##NO_TEXT.
+  RETURN.
+ENDFORM.

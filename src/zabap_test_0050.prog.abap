@@ -1,0 +1,7 @@
+REPORT zabap_test_0050 NO STANDARD PAGE HEADING.
+
+PERFORM foo USING 2.
+
+FORM foo USING pv_i TYPE i.
+  WRITE: / pv_i.
+ENDFORM.

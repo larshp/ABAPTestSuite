@@ -1,0 +1,3 @@
+REPORT zabap_test_0001 NO STANDARD PAGE HEADING.
+
+WRITE 'Hello World' ##NO_TEXT.

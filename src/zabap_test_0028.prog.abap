@@ -1,0 +1,5 @@
+REPORT zabap_test_0028 NO STANDARD PAGE HEADING.
+
+DATA: gv_a TYPE c VALUE 'abc' LENGTH 3.
+
+WRITE: / gv_a.
